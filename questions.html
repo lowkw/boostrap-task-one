@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Low Kok Wei">       
+	<title>Collapsible Questions · Bootstrap 5.2</title>	
+
+	<link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">       
+	<!-- Custom styles for this template -->
+    <link href="navbar-top-fixed.css" rel="stylesheet">	
+  </head>
+  
+  <body>    		
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+	  <div class="container-fluid">
+			<a class="navbar-brand" href="#">Bootstrap task one</a>
+			
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+			  <ul class="navbar-nav me-auto mb-2 mb-md-0">
+				<li class="nav-item">
+				  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="definitions.html">Definitions</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="questions.html">Questions</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="contact.html">Contact</a>
+				</li>
+			  </ul>
+			</div>
+	  </div>
+	</nav>			
+	<main class="container">
+	  <div class="bg-light p-3 rounded">
+		<h1>Questions</h1>		
+	
+		<p class="d-grid gap-2">
+		  <button class="btn btn-outline-primary text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthOne" aria-expanded="false" aria-controls="collapseWidthOne">
+			What are programming controls and design structures?
+		  </button>
+		</p>		
+		<div class="collapse" id="collapseWidthOne">
+		  <div class="card card-body">
+		    Programming controls are commands that enable a progam to take decisions on flow path. The design structures are sequential, conditional and iteration.
+		  </div>
+		</div>
+		
+		
+		<p class="d-grid gap-2">
+		  <button class="btn btn-outline-primary text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthTwo" aria-expanded="false" aria-controls="collapseWidthTwo">
+			What are website testing procedures?
+		  </button>
+		</p>
+		<div class="collapse" id="collapseWidthTwo">
+		  <div class="card card-body">
+		    Website testing procedures include functional, usability, interface, compatibility, performance and security testing.
+		  </div>
+		</div>
+		
+		<p class="d-grid gap-2">
+		  <button class="btn btn-outline-primary text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthThree" aria-expanded="false" aria-controls="collapseWidthThree">
+			What are website debugging methods?
+		  </button>
+		</p>
+		<div class="collapse" id="collapseWidthThree">
+		  <div class="card card-body">
+		    Basic website debugging methods using web browser developer tools are
+			<ul>
+			<li>outputting JavaScript debugging messages to the browser </li>
+			<li>popping up message with alert()</li> 
+			<li>logging lines to console with console.log()</li>
+			<li>pausing code execution with the debugger statement</li>
+			</ul>
+		  </div>
+		</div>
+		
+		<p class="d-grid gap-2">
+		  <button class="btn btn-outline-primary text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthFour" aria-expanded="false" aria-controls="collapseWidthFour">
+			What are website coding techniques?
+		  </button>
+		</p>
+		<div class="collapse" id="collapseWidthFour">
+		  <div class="card card-body">
+		    Website coding techniques may include learning the HTML, CSS, JavaScript and web front end frameworks.
+		  </div>
+		</div>
+		
+	  </div>
+	</main>	
+	<script src="./bootstrap/js/bootstrap.bundle.min.js"></script>      
+  </body>
+</html>

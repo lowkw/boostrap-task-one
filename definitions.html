@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Low Kok Wei">        
+	<title>Accordion Definitions · Bootstrap 5.2</title>
+
+	<link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">       
+	<!-- Custom styles for this template -->
+    <link href="navbar-top-fixed.css" rel="stylesheet">
+  </head>
+  
+  <body>    	
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+	  <div class="container-fluid">
+			<a class="navbar-brand" href="#">Bootstrap task one</a>
+			
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+			  <ul class="navbar-nav me-auto mb-2 mb-md-0">
+				<li class="nav-item">
+				  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="definitions.html">Definitions</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="questions.html">Questions</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="contact.html">Contact</a>
+				</li>
+			  </ul>
+			</div>
+	  </div>
+	</nav>				
+	<main class="container">
+	  <div class="bg-light p-3 rounded">
+		<h1>Definitions</h1>		
+	  
+		<div class="accordion" id="accordionBoostrap">
+		  <div class="card">
+			<div class="card-header" id="headingOne">
+			  <h2 class="mb-0">
+				<button class="btn btn-link btn-block text-left" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				  The three major programming control structures.
+				</button>
+			  </h2>
+			</div>
+
+			<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionBoostrap">
+			  <div class="card-body p-4">
+				The three major programming control structures are sequential, conditional and iteration.
+			  </div>
+			</div>
+		  </div>
+		  
+		  <div class="card">
+			<div class="card-header" id="headingTwo">
+			  <h2 class="mb-0">
+				<button class="btn btn-link btn-block text-left collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				  Hypertext markup language (HTML) and markup languages.
+				</button>
+			  </h2>
+			</div>
+			<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionBoostrap">
+			  <div class="card-body p-4">
+				Hypertext Markup Language is the set of markup symbols inserted into a file to be displayed in a web browser.
+			  </div>
+			</div>
+		  </div>
+		  
+		  <div class="card">
+			<div class="card-header" id="headingThree">
+			  <h2 class="mb-0">
+				<button class="btn btn-link btn-block text-left collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				  Cascading style sheets (CSS).
+				</button>
+			  </h2>
+			</div>
+			<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionBoostrap">
+			  <div class="card-body p-4">
+				Cascading style sheet describes how HTML elements are to be displayed on screen or in other media.
+			  </div>
+			</div>
+		  </div>
+		  
+		  <div class="card">
+			<div class="card-header" id="headingFour">
+			  <h2 class="mb-0">
+				<button class="btn btn-link btn-block text-left collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+				  Syntax and uses of programming languages.
+				</button>
+			  </h2>
+			</div>
+			<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionBoostrap">
+			  <div class="card-body p-4">
+				Syntax refers to the rules that define the structure of a programming language. A programming language is use by programmers to develop software programs.
+			  </div>
+			</div>
+		  </div>
+			  
+		</div>
+	  </div>
+	</main>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>      
+  </body>
+</html>
